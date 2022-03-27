@@ -1,8 +1,8 @@
 void main(List<String> args) {
   List<String> name = ['Minh', 'Duc', 'Duong'];
   name.forEach((element) {
-      print(element);
-    }); 
+    print(element);
+  });
 
   //name.add('Nguyen');
   // name.addAll(['Khang', 'Nhat', 'Luan']);
@@ -18,8 +18,14 @@ void main(List<String> args) {
   // name.removeRange(1, 2);
   // name.clear();
   //  print(name);
-  
+
   // name[1] = 'Nguyen';
   // name.replaceRange(1, 2, ['Linh', 'Nhat']);
   // print(name);
+
+  //print(name.indexOf('Duc'));
+
+  //them chu 'son' vao cuoi moi phan tu
+  var newName = name.map((e) => e + 'son');  
+  print(newName);
 }
