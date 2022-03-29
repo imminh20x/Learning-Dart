@@ -22,4 +22,12 @@ void main(List<String> arguments) {
   var name = 'Minh';
   var age = 21;
   print('Ten toi la $name va toi $age tuoi.');
+
+  num myNumber = 3.14;
+  print(myNumber is double);
+  print(myNumber is int);
+
+  num someNubmer = 3;
+  final someInt = someNubmer as int;
+  print(someInt.isEven);
 }
