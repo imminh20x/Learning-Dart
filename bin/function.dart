@@ -3,7 +3,7 @@ import 'dart:io';
 // num addition(num a, num b) {
 //   return a + b;
 // }
-num addition(num a, num b) => a + b;
+addition(num a, num b) => a + b; //now the function has dynamic type with arrow notation
 
 void main(List<String> args) {
   print('Input for 2 number:');

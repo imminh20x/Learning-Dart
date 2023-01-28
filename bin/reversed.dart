@@ -1,5 +1,5 @@
 //loop
-reversed(String s) {
+String reversed(String s) {
   String temp = "";
   for (int i = s.length - 1; i >= 0; i--) {
     temp += s[i];
@@ -9,7 +9,7 @@ reversed(String s) {
 
 void main(List<String> args) {
 // split into a List and reversed then join back into a String
-  String a = "Discover Flutter";
+  var a = "Discover Flutter";
   a = a.split("").reversed.join("");
   print(a);
 
